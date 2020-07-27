@@ -78,7 +78,7 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2020-07-27T03:28:15Z</date>
+	<date>2020-07-27T03:33:40Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -266,9 +266,9 @@
 	<key>mobileStatusBarStyle</key>
 	<integer>0</integer>
 	<key>monotypeProjectID</key>
-	<string>606CD9C4-BA98-4344-9D9A-043F6D5668A9-5972-0000138A3DC7BDAD</string>
+	<string>115CC02E-CC4E-46C1-978E-B3C620732B71-6266-000013D3FD3DEAA3</string>
 	<key>oidCounter</key>
-	<integer>4</integer>
+	<integer>6</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -360,7 +360,11 @@
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>3D214DA2-554F-4232-AD8A-89CDD0E9DF1C-5972-00001382E8629AC6</string>
+			<string>D2AF65B2-2C4B-40F0-877E-D6973BBA6AC2-6266-000013CE9C4C6D67</string>
+			<key>selectedObjects</key>
+			<array>
+				<string>6</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -370,7 +374,77 @@
 				<key>customBehaviors</key>
 				<array/>
 				<key>elements</key>
-				<dict/>
+				<dict>
+					<key>6</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>SymbolOid</string>
+							<key>objectValue</key>
+							<string>5</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>200px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>unnamed instance</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>100px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>145px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Symbol</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>310px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+					</array>
+				</dict>
 				<key>isPersistentSymbol</key>
 				<false/>
 				<key>name</key>
@@ -394,6 +468,81 @@
 				<true/>
 				<key>showInResourceLibrary</key>
 				<false/>
+				<key>timelines</key>
+				<array>
+					<dict>
+						<key>animations</key>
+						<array/>
+						<key>firstKeyframeIsRelative</key>
+						<false/>
+						<key>framesPerSecond</key>
+						<integer>30</integer>
+						<key>hidden</key>
+						<false/>
+						<key>identifier</key>
+						<string>kTimelineDefaultIdentifier</string>
+						<key>loop</key>
+						<false/>
+						<key>name</key>
+						<string>Main Timeline</string>
+						<key>userDefinedDuration</key>
+						<real>0.0</real>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>documentIdentifier</key>
+			<string>D2AF65B2-2C4B-40F0-877E-D6973BBA6AC2-6266-000013CE9C4C6D67</string>
+			<key>symbol</key>
+			<dict>
+				<key>addToNewSceneControllers</key>
+				<false/>
+				<key>currentTimelineIdentifier</key>
+				<string>kTimelineDefaultIdentifier</string>
+				<key>customBehaviors</key>
+				<array/>
+				<key>elements</key>
+				<dict/>
+				<key>isPersistentSymbol</key>
+				<true/>
+				<key>name</key>
+				<string>Symbol</string>
+				<key>oid</key>
+				<string>5</string>
+				<key>onSceneLoadActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array>
+						<dict>
+							<key>playInReverse</key>
+							<false/>
+							<key>timelineIdentifier</key>
+							<string>kTimelineDefaultIdentifier</string>
+							<key>type</key>
+							<integer>3</integer>
+						</dict>
+					</array>
+				</dict>
+				<key>onTopDuringSceneTransition</key>
+				<true/>
+				<key>preferredSize</key>
+				<string>{310, 200}</string>
+				<key>properties</key>
+				<dict>
+					<key>PhysicsGravityAngle</key>
+					<real>180</real>
+					<key>PhysicsGravityForce</key>
+					<real>1</real>
+					<key>PhysicsGravityInheritFromParent</key>
+					<false/>
+					<key>PhysicsGravityUsesDeviceTilt</key>
+					<false/>
+				</dict>
+				<key>removeWhenNoLongerReferenced</key>
+				<true/>
+				<key>showInResourceLibrary</key>
+				<true/>
 				<key>timelines</key>
 				<array>
 					<dict>
